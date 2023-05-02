@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<header>
+    <img src="imgs/logo.png" alt="logotipo alura">
+</header>
+<body>
+    <main>
+        <div class="secao1">
+            <textarea id="texto" cols="10" rows="19" placeholder="Digite seu texto"></textarea>
+            <p style="padding: 0 0 20px 30px;">❕Apenas letras minúsculas e sem acento.</p>
+            <br> 
+                <div>   
+                    <button class="BT1" id="cripto">Criptografar</button>
+                    <button class="BT1" id="descripto">Descriptografar</button>
+                </div>
+        </div>
+
+        <div class="secao2">
+            <img id="Image" class="img" src="imgs/main.png" alt="nenhuma imagem encontrada">
+            <p id="tela"></p>
+
+             
+            <button id="copiar" onclick="copiarTexto()">Copiar</button>
+             
+        
+        </div>
+    </main>
+
+    <footer>
+        <p>Alura Challenge - ONE
+            <br>
+           Desenvolvido por <a href="https://github.com/silasApolinario" target="_blank">Silas Apolinário</a> © 2023</p>
+           <img src="imgs/git.svg" alt="">
+    </footer>
+
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
